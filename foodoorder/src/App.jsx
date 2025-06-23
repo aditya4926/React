@@ -1,9 +1,14 @@
+import Header from "./assets/Header"
+import Body from "./assets/Body"
+import Footer from "./assets/Footer"
+
+
 function App(){
   return (
     <>
-    <div className="text-red-500">
-      hello world
-    </div>
+    <Header/>
+    <Body/>
+    <Footer/>
     </>
   )
 }
